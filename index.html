@@ -404,8 +404,8 @@ footer .logo b{color:var(--white);font-size:19px}
       </div>
       <ul class="incl"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m5 12 5 5 9-10"/></svg>App no celular e no computador</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m5 12 5 5 9-10"/></svg>Tutorial em vídeo</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m5 12 5 5 9-10"/></svg>Acesso imediato</li></ul>
       <div class="plans">
-        <div class="plan"><h4>Plano anual</h4><small>Acesso por 12 meses</small><div class="val">R$ 97<span>por ano</span></div><a class="btn btn-ghost btn-block" href="#oferta" data-checkout="anual">Quero o plano anual <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
-        <div class="plan best"><h4>Vitalício<em>Pague uma vez</em></h4><small>Acesso para sempre</small><div class="val">R$ 197<span>pagamento único</span></div><a class="btn btn-gold btn-block" href="#oferta" data-checkout="vitalicio">Quero o vitalício <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+        <div class="plan"><h4>Plano anual</h4><small>Acesso por 12 meses</small><a class="btn btn-ghost btn-block" href="#oferta" data-checkout="anual">Quero o plano anual <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+        <div class="plan best"><h4>Vitalício<em>Pague uma vez</em></h4><small>Acesso para sempre</small><a class="btn btn-gold btn-block" href="#oferta" data-checkout="vitalicio">Quero o vitalício <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
       </div>
       <div class="secure">
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Compra segura pela Kiwify</span>
@@ -424,7 +424,7 @@ footer .logo b{color:var(--white);font-size:19px}
   <div class="container">
     <span class="kicker">Dúvidas</span>
     <h2 id="t-faq">Perguntas frequentes.</h2>
-    <div class="faq-list" style="text-align:left"><details open><summary>Funciona no celular?</summary><p>Sim. Abre no navegador (de preferência o Chrome) e pode ser instalado na tela inicial como app.</p></details><details><summary>Preciso de algum equipamento?</summary><p>Só um fone de ouvido, com fio ou bluetooth.</p></details><details><summary>Anual ou vitalício?</summary><p>Anual: R$ 97 por ano. Vitalício: R$ 197 uma única vez, para sempre.</p></details><details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia para pedir o reembolso.</p></details></div>
+    <div class="faq-list" style="text-align:left"><details open><summary>Funciona no celular?</summary><p>Sim. Abre no navegador (de preferência o Chrome) e pode ser instalado na tela inicial como app.</p></details><details><summary>Preciso de algum equipamento?</summary><p>Só um fone de ouvido, com fio ou bluetooth.</p></details><details><summary>Anual ou vitalício?</summary><p>No anual, você tem acesso por 12 meses e renova se quiser continuar. No vitalício, paga uma única vez e usa para sempre. O valor de cada plano aparece no checkout.</p></details><details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia para pedir o reembolso.</p></details></div>
     <div class="faq-cta">
       <a class="btn btn-gold" href="#oferta">Quero o Vértice Vox <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       <span>Ainda com dúvida? <a href="#" data-wa style="text-decoration:underline">Fale com a equipe no WhatsApp</a>.</span>
@@ -441,7 +441,7 @@ footer .logo b{color:var(--white);font-size:19px}
 
 <div class="sticky" id="sticky" aria-hidden="true">
   <div class="sticky-in">
-    <div class="sticky-price"><small>Vértice Vox</small><b>a partir de R$ 97</b></div>
+    <div class="sticky-price"><small>Vértice Vox</small><b>Anual ou vitalício</b></div>
     <a class="btn btn-gold" href="#oferta" tabindex="-1">Ver planos</a>
   </div>
 </div>
@@ -456,7 +456,7 @@ var CONFIG = {
     anual: "https://pay.kiwify.com.br/8AHzihk",     /* Vértice Vox · Anual (R$ 97) */
     vitalicio: "https://pay.kiwify.com.br/CGVqqua"  /* Vértice Vox · Vitalício (R$ 197) */
   },
-  whatsapp: "",             /* só números com DDI e DDD, ex.: 5531999999999 */
+  whatsapp: "553192289577",             /* só números com DDI e DDD, ex.: 5531999999999 */
   whatsappMsg: "Olá! Tenho uma dúvida sobre o Vértice Vox.",
   metaPixelId: ""           /* ID do Pixel da Meta, ex.: 123456789012345 */
 };
